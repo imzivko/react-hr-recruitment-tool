@@ -1,0 +1,134 @@
+.drawer {
+  width: 37rem;
+  justify-content: center;
+  align-items: center;
+
+  .closeButton {
+    margin: 2.53125rem 2.53125rem 0 0;
+    padding: 0;
+  }
+
+  .name {
+    font-weight: 700;
+    height: 3.625rem;
+    margin-left: 3.5rem;
+  }
+
+  .seniority {
+    background-color: #1e8de1;
+    margin: 0 0 2rem 3.5rem;
+    width: 9.25rem;
+    min-height: 2rem;
+    border-radius: 0.25rem;
+    padding: 0.5rem;
+    .seniorityText {
+      font-weight: 600;
+      margin-left: 0.3rem;
+    }
+  }
+
+  .title {
+    background-color: #f5faff;
+    margin: 0 0 0 2.375rem;
+    width: 34.5rem;
+    height: 2.75rem;
+    display: flex;
+    align-items: center;
+    padding: 1.125rem;
+    border-radius: 8px 0px 0px 8px;
+    font-weight: 600;
+  }
+
+  .contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 1.125rem 0 2rem 3.5rem;
+    min-width: 10rem;
+    min-height: 6rem;
+  }
+
+  .detailsTitle {
+    font-weight: 600;
+  }
+
+  .detailsContent {
+    font-weight: 500;
+  }
+
+  .link {
+    padding-left: 1rem;
+    font-family: Gilroy, sans-serif;
+    color: #5e74d2;
+    font-weight: 500;
+  }
+
+  .cv {
+    background-color: rgba(54, 73, 155, 0.07);
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 2rem;
+
+    .pdfIcon {
+      margin: 1rem;
+    }
+
+    .cvFileName {
+      background-color: rgba(94, 116, 210, 0.1);
+      color: #5e74d2;
+      padding: 0.5rem 1rem;
+      border-bottom-left-radius: 0.5rem;
+      border-bottom-right-radius: 0.5rem;
+    }
+
+    &.hidden {
+      display: none;
+    }
+  }
+
+  .letter {
+    background-color: #f5faff;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .pdfIcon {
+      margin: 1rem;
+    }
+
+    .letterFileName {
+      background-color: rgba(30, 141, 225, 0.1);
+      color: #1e8de1;
+      padding: 0.5rem 1rem;
+      border-bottom-left-radius: 0.5rem;
+      border-bottom-right-radius: 0.5rem;
+    }
+    &.hidden {
+      display: none;
+      margin: 0;
+    }
+  }
+
+  .bottomButtons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border-top: 1px solid #e8eaeb;
+    padding: 1.75rem 2.25rem 1.875rem 0;
+    .rejectButton {
+      color: #d97067;
+      border-color: #d97067;
+      padding: 1rem 2.15625rem;
+      margin-right: 1rem;
+      text-transform: none;
+    }
+
+    .acceptButton {
+      padding: 1rem 2.15625rem;
+      text-transform: none;
+    }
+  }
+}

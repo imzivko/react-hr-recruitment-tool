@@ -1,0 +1,23 @@
+.container {
+  justify-content: space-between;
+  padding-left: 2.5rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  width: 25%;
+
+  .button {
+    border-radius: 0.625rem;
+  }
+
+  .selected {
+    background-color: #1e8de1;
+
+    &:hover {
+      background-color: #0280e0;
+    }
+  }
+
+  .selectedText {
+    color: white;
+  }
+}

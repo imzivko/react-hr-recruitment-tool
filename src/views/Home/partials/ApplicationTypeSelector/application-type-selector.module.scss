@@ -1,0 +1,29 @@
+.container {
+  background-color: #ffff;
+  justify-content: flex-start;
+
+  .tab {
+    font-size: 1rem;
+    border-radius: 0.625rem;
+  }
+
+  .indicator {
+    height: 0.2rem;
+  }
+}
+
+.datePicker {
+  border: 0.06rem solid #c6cacc;
+  border-radius: 0.625rem;
+  height: 2.5rem;
+  width: 14.5rem;
+  text-align: center;
+}
+
+.wrapper {
+  text-transform: none;
+}
+
+.box {
+  padding: 2rem;
+}

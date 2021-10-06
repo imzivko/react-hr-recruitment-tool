@@ -1,0 +1,20 @@
+.container {
+  .filterButton {
+    border: 0.06rem solid #c6cacc;
+    border-radius: 0.5rem;
+    height: auto;
+
+    &:hover {
+      border-color: gray;
+    }
+  }
+
+  .buttonRoot {
+    color: #424d56;
+    min-width: fit-content;
+  }
+
+  .searchInput fieldset {
+    border-radius: 0.625rem;
+  }
+}

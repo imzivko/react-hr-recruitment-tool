@@ -1,0 +1,25 @@
+// Globals - reset and base styling of HTML elements
+@import './globals/reset';
+@import './globals/base';
+
+@font-face {
+  font-family: 'Gilroy';
+  src: local('Gilroy-Bold'), url('/fonts/Gilroy-Bold.ttf') format('truetype');
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'Gilroy';
+  src: local('Gilroy-SemiBold'), url('/fonts/Gilroy-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+}
+@font-face {
+  font-family: 'Gilroy';
+  src: local('Gilroy-Medium'), url('/fonts/Gilroy-Medium.ttf') format('truetype');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: local('Gilroy-Regular'), url('/fonts/Gilroy-Regular.ttf') format('truetype');
+  font-weight: 400;
+}

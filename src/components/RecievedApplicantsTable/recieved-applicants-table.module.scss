@@ -1,0 +1,31 @@
+.container {
+  padding: 2rem;
+  padding-top: 0;
+  cursor: default;
+
+  .circularProgressContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 54vh;
+  }
+
+  .tableContainer {
+    box-shadow: 0 0 0.938rem rgba(0, 0, 0, 0.04), 0.125rem 0.25rem 0.875rem rgba(0, 0, 0, 0.01);
+    border-radius: 0.625rem;
+    overflow: auto;
+    max-height: 54vh;
+  }
+
+  .headerText {
+    font-weight: 600;
+  }
+
+  .tableRow {
+    cursor: pointer;
+    &:hover {
+      background-color: #f5faff;
+      transition: 0.2s;
+    }
+  }
+}

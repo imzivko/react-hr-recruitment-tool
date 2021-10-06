@@ -1,0 +1,15 @@
+.container {
+  background-color: #f5faff;
+  height: 100vh;
+  overflow: hidden;
+
+  .tabContainer {
+    width: 100%;
+    padding: 1rem;
+    background-color: #ffffff;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    box-shadow: 0 0 0.938rem rgba(0, 0, 0, 0.04), 0.125rem 0.25rem 0.875rem rgba(0, 0, 0, 0.01);
+    border-radius: 0.5rem 0.5rem 0rem 0rem;
+  }
+}

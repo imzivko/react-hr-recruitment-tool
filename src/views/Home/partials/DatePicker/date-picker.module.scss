@@ -1,0 +1,12 @@
+.datePickerContainer {
+  z-index: 8;
+
+  .datePicker {
+    border: 0.06rem solid #c6cacc;
+    border-radius: 0.625rem;
+    height: 2.5rem;
+    width: 14.5rem;
+    text-align: center;
+    cursor: pointer;
+  }
+}
